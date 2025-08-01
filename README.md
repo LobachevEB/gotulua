@@ -12,6 +12,9 @@ Gotгlua - All-in-one Go-powered environment for building Lua scripts with text-
 - Customizable table structures
 - Event handling for database operations (OnAfterInsert, OnAfterUpdate, etc.)
 
+![screenshot](docs/editor.png)
+![screenshot](docs/browse.png)
+
 ## Installation
 
 1. Ensure you have Go 1.22.0 or later installed
