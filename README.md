@@ -17,6 +17,8 @@ Gotгlua - All-in-one Go-powered environment for building Lua scripts with text-
 
 ## Installation
 
+- Binaries for Windows and Linux are available in the [release] https://github.com/LobachevEB/gotulua/releases page.
+
 1. Ensure you have Go 1.22.0 or later installed
 2. Clone the repository
 3. Install dependencies:
