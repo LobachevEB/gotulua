@@ -1,0 +1,600 @@
+[
+    {
+        "id": "greeting",
+        "translation": "Hello!"
+    },
+    {
+        "id": "menu.file",
+        "translation": "File"
+    },
+    {
+        "id": "menu.edit",
+        "translation": "Edit"
+    },
+    {
+        "id": "menu.search",
+        "translation": "Search"
+    },
+    {
+        "id": "menu.run",
+        "translation": "Run"
+    },
+    {
+        "id": "menu.help",
+        "translation": "Help"
+    },
+    {
+        "id": "action.save",
+        "translation": "Save"
+    },
+    {
+        "id": "action.saveas",
+        "translation": "Save As"
+    },
+    {
+        "id": "action.open",
+        "translation": "Open"
+    },
+    {
+        "id": "action.close",
+        "translation": "Close"
+    },
+    {
+        "id": "action.cancel",
+        "translation": "Cancel"
+    },
+    {
+        "id": "prompt.file",
+        "translation": "Save the current file"
+    },
+    {
+        "id": "prompt.open",
+        "translation": "Open a file"
+    },
+    {
+        "id": "prompt.close",
+        "translation": "Close the file"
+    },
+    {
+        "id": "menu.run.title",
+        "translation": "Run Menu"
+    },
+    {
+        "id": "action.run",
+        "translation": "Run"
+    },
+    {
+        "id": "action.stop",
+        "translation": "Stop"
+    },
+    {
+        "id": "prompt.run",
+        "translation": "Run the current file"
+    },
+    {
+        "id": "prompt.stop",
+        "translation": "Stop the current file"
+    },
+    {
+        "id": "menu.edit.title",
+        "translation": "Edit Menu"
+    },
+    {
+        "id": "menu.search.title",
+        "translation": "Search Menu"
+    },
+    {
+        "id": "prompt.help",
+        "translation": "Help Programming Functions"
+    },
+    {
+        "id": "action.undo",
+        "translation": "Undo"
+    },
+    {
+        "id": "action.redo",
+        "translation": "Redo"
+    },
+    {
+        "id": "action.cut",
+        "translation": "Cut"
+    },
+    {
+        "id": "action.copy",
+        "translation": "Copy"
+    },
+    {
+        "id": "action.paste",
+        "translation": "Paste"
+    },
+    {
+        "id": "action.find",
+        "translation": "Find"
+    },
+    {
+        "id": "action.replace",
+        "translation": "Replace"
+    },
+    {
+        "id": "action.about",
+        "translation": "About"
+    },
+    {
+        "id": "action.shortcuts",
+        "translation": "Shortcuts"
+    },
+    {
+        "id": "error.not_a_function",
+        "translation": "{{.Name}} is not a function"
+    },
+    {
+        "id": "error.allowed_type_modificators",
+        "translation": "Allowed values of DateTime type \"{{.Date}}\", \"{{.Time}}\", \"{{.DateTime}}\", \"{{.Boolean}}\""
+    },
+    {
+        "id": "error.value_should_be_string",
+        "translation": "Value {{.Value}} should be of string type"
+    },
+    {
+        "id": "error.invalid_type",
+        "translation": "Invalid type: expected %s, got %s"
+    },
+    {
+        "id": "error.missing_field",
+        "translation": "Required field '%s' is missing"
+    },
+    {
+        "id": "error.out_of_range",
+        "translation": "Value %d is out of range [%d, %d]"
+    },
+    {
+        "id": "error.duplicate_key",
+        "translation": "Duplicate key '%s' found"
+    },
+    {
+        "id": "error.not_enough_args",
+        "translation": "Error: Not enough arguments for {{.Name}}"
+    },
+    {
+        "id": "error.first_arg_not_table",
+        "translation": "Error: First argument is not a Table"
+    },
+    {
+        "id": "error.second_arg_not_string",
+        "translation": "Error: Second argument is not a string"
+    },
+    {
+        "id": "error.constant_not_set",
+        "translation": "Constant value not set"
+    },
+    {
+        "id": "error.function_not_set",
+        "translation": "Function value not set"
+    },
+    {
+        "id": "error.field_not_found",
+        "translation": "Error: Field '{{.Name}}' not found in Browse"
+    },
+    {
+        "id": "dialog.remove_row",
+        "translation": "Remove current row?"
+    },
+    {
+        "id": "button.yes",
+        "translation": "Yes"
+    },
+    {
+        "id": "button.no",
+        "translation": "No"
+    },
+    {
+        "id": "error.not_enough_args_lua",
+        "translation": "Error: Not enough arguments for '{{.Name}}'"
+    },
+    {
+        "id": "error.extra_args",
+        "translation": "Error: Extra arguments for %s"
+    },
+    {
+        "id": "error.arg_not_string",
+        "translation": "Error: %s is not a string"
+    },
+    {
+        "id": "error.arg_not_browse",
+        "translation": "Error: First argument is not a browse"
+    },
+    {
+        "id": "error.db_open",
+        "translation": "Error opening database: %s"
+    },
+    {
+        "id": "error.db_table_not_found",
+        "translation": "Error: Table '%s' not found in database"
+    },
+    {
+        "id": "error.db_table_not_open",
+        "translation": "Error: Table is not open"
+    },
+    {
+        "id": "error.db_field_not_found",
+        "translation": "Field {{.Field}} not found in table {{.Table}}"
+    },
+    {
+        "id": "error.db_field_not_string",
+        "translation": "Error: Field '%s' is not a string"
+    },
+    {
+        "id": "error.db_field_not_number",
+        "translation": "Error: Field '%s' is not a number"
+    },
+    {
+        "id": "error.db_field_not_date",
+        "translation": "Error: Field '%s' is not a date"
+    },
+    {
+        "id": "error.db_field_not_time",
+        "translation": "Error: Field '%s' is not a time"
+    },
+    {
+        "id": "error.db_field_not_datetime",
+        "translation": "Error: Field '%s' is not a datetime"
+    },
+    {
+        "id": "error.db_field_not_boolean",
+        "translation": "Error: Field '%s' is not a boolean"
+    },
+    {
+        "id": "error.arg_not_db",
+        "translation": "Error: %s is not a database"
+    },
+    {
+        "id": "error.db_close",
+        "translation": "Error closing database: %s"
+    },
+    {
+        "id": "error.arg_not_table",
+        "translation": "Error: First argument is not a table"
+    },
+    {
+        "id": "error.arg_not_integer",
+        "translation": "Error: %s is not an integer"
+    },
+    {
+        "id": "error.arg_not_string_for_field",
+        "translation": "Error: Third argument is not a string for field '%s'"
+    },
+    {
+        "id": "error.invalid_datetime_type",
+        "translation": "Error: Third argument should be one of \"%s\", \"%s\", \"%s\""
+    },
+    {
+        "id": "error.field_not_found_no_default",
+        "translation": "Error: Field '%s' does not exist in the table and no default value found"
+    },
+    {
+        "id": "error.date_format_empty",
+        "translation": "Date format should not be empty"
+    },
+    {
+        "id": "error.date_format_year",
+        "translation": "Date format should contain a year part: \"yy\" or \"yyyy\""
+    },
+    {
+        "id": "error.date_format_year_length",
+        "translation": "The year part in a date format should be 2 or 4 symbols long: \"yy\" or \"yyyy\""
+    },
+    {
+        "id": "error.date_format_month",
+        "translation": "Date format should contain a month part: \"mm\" for month in a number format or \"MM\" month in a text format"
+    },
+    {
+        "id": "error.date_format_month_duplicate",
+        "translation": "Date format should contain only one month part: \"mm\" for month in a number format or \"MM\" month in a text format"
+    },
+    {
+        "id": "error.date_format_month_length",
+        "translation": "Date format should contain a 2-symbols month part: \"mm\" for month in a number format or \"MM\" month in a text format"
+    },
+    {
+        "id": "error.date_format_day",
+        "translation": "Date format should contain a day part: \"dd\""
+    },
+    {
+        "id": "error.date_format_day_length",
+        "translation": "Date format should contain a 2-symbols day part: \"dd\""
+    },
+    {
+        "id": "error.time_format_hour",
+        "translation": "Time format should contain a hour part: \"hh\""
+    },
+    {
+        "id": "error.time_format_hour_length",
+        "translation": "The hour part in a time format should be 2 symbols long: \"hh\""
+    },
+    {
+        "id": "error.time_format_minutes",
+        "translation": "Time format should contain a minutes part: \"ii\""
+    },
+    {
+        "id": "error.time_format_minutes_length",
+        "translation": "Time format should contain a 2-symbols minutes part: \"ii\""
+    },
+    {
+        "id": "error.time_format_seconds",
+        "translation": "Time format should contain a seconds part: \"ss\""
+    },
+    {
+        "id": "error.time_format_seconds_length",
+        "translation": "Time format should contain a 2-symbols seconds part: \"ss\""
+    },
+    {
+        "id": "error.datetime_type",
+        "translation": "Second parameter should be %s, %s or %s"
+    },
+    {
+        "id": "error.datetime_symbols",
+        "translation": "Symbols \"%s\" only allowed in date/time format"
+    },
+    {
+        "id": "error.datetime_year_missing",
+        "translation": "Year part is omitted in template %s"
+    },
+    {
+        "id": "error.datetime_month_missing",
+        "translation": "Month part is omitted in template %s"
+    },
+    {
+        "id": "error.datetime_day_missing",
+        "translation": "Day part is omitted in template %s"
+    },
+    {
+        "id": "error.datetime_hour_missing",
+        "translation": "Hour part is omitted in template %s"
+    },
+    {
+        "id": "error.datetime_minutes_missing",
+        "translation": "Minutes part is omitted in template %s"
+    },
+    {
+        "id": "error.datetime_seconds_missing",
+        "translation": "Seconds part is omitted in template %s"
+    },
+    {
+        "id": "error.input_field_args",
+        "translation": "Error: Not enough arguments for input field creation"
+    },
+    {
+        "id": "error.input_field_title",
+        "translation": "Error: Input field title is not a string"
+    },
+    {
+        "id": "error.input_field_type",
+        "translation": "Error: Input field type is not a string"
+    },
+    {
+        "id": "error.input_field_type_invalid",
+        "translation": "Error: Input field type must be 'I', 'N', 'S', 'B', 'D', 'T' or 'DT'"
+    },
+    {
+        "id": "error.input_field_callback",
+        "translation": "Error: Input field callback function name is not a string"
+    },
+    {
+        "id": "error.input_field_caption",
+        "translation": "Error: Input field caption is not a string"
+    },
+    {
+        "id": "error.no_widgets",
+        "translation": "Error: No widgets available to switch focus"
+    },
+    {
+        "id": "error.focus_not_in_list",
+        "translation": "Error: Current focus is not in the Widgets list"
+    },
+    {
+        "id": "error.input_field_not_exists",
+        "translation": "Error: Input field '%s' does not exist"
+    },
+    {
+        "id": "error.input_field_not_number",
+        "translation": "Error: Input field '%s' is not a number"
+    },
+    {
+        "id": "error.input_field_not_boolean",
+        "translation": "Error: Input field '%s' is not a boolean"
+    },
+    {
+        "id": "error.input_field_invalid_type",
+        "translation": "Error: Input field '%s' is not a valid type"
+    },
+    {
+        "id": "error.textview_args",
+        "translation": "Error: Not enough arguments for TextOut creation"
+    },
+    {
+        "id": "error.textview_title",
+        "translation": "Error: Title is not a string"
+    },
+    {
+        "id": "error.textview_text",
+        "translation": "Error: Text is not a string"
+    },
+    {
+        "id": "error.settextview_args",
+        "translation": "Error: Not enough arguments for SetTextOut"
+    },
+    {
+        "id": "error.settextview_title",
+        "translation": "Error: Title is not a string"
+    },
+    {
+        "id": "error.settextview_text",
+        "translation": "Error: Text is not a string"
+    },
+    {
+        "id": "error.widget_not_textview",
+        "translation": "Error: Widget '%s' is not a TextView"
+    },
+    {
+        "id": "error.widget_not_found",
+        "translation": "Error: Widget '%s' not found"
+    },
+    {
+        "id": "error.db_already_exists",
+        "translation": "Database {{.Path}} already exists"
+    },
+    {
+        "id": "error.db_create_failed",
+        "translation": "Failed to create database. Please check if you have write permissions and sufficient disk space."
+    },
+    {
+        "id": "error.db_metadata_create_failed",
+        "translation": "Failed to initialize database structure. Please check if the database is not corrupted."
+    },
+    {
+        "id": "error.db_open_failed",
+        "translation": "Could not open database {{.Name}}. Please verify that the database file exists and is not locked."
+    },
+    {
+        "id": "error.db_table_create_failed",
+        "translation": "Could not create table {{.Name}}. Please check if a table with this name already exists."
+    },
+    {
+        "id": "error.db_metadata_store_failed",
+        "translation": "Could not save table {{.Name}} configuration. Please check if you have sufficient permissions."
+    },
+    {
+        "id": "error.db_table_info_failed",
+        "translation": "Could not read table {{.Name}} structure. The table might be corrupted."
+    },
+    {
+        "id": "error.db_table_scan_failed",
+        "translation": "Could not read table {{.Name}} data. The table structure might be invalid."
+    },
+    {
+        "id": "error.db_field_scan_failed",
+        "translation": "Could not read table fields. The table structure might be invalid."
+    },
+    {
+        "id": "error.db_table_drop_failed",
+        "translation": "Could not delete table {{.Name}}. Please check if you have sufficient permissions."
+    },
+    {
+        "id": "error.db_field_metadata_failed",
+        "translation": "Error getting metadata for field {{.Field}}: {{.Error}}"
+    },
+    {
+        "id": "error.db_invalid_type",
+        "translation": "Invalid type {{.Type}}. Allowed types are: {{.Date}}, {{.Time}}, {{.DateTime}}, {{.Boolean}}"
+    },
+    {
+        "id": "error.db_field_type_mismatch",
+        "translation": "Field {{.Field}} value must be {{.ExpectedType}}, got {{.ActualType}}"
+    },
+    {
+        "id": "error.db_field_update_failed",
+        "translation": "Failed to update field {{.Field}} in database"
+    },
+    {
+        "id": "error.menu_insufficient_args",
+        "translation": "Error: AddMenu requires two arguments - caption and function name"
+    },
+    {
+        "id": "error.menu_invalid_caption",
+        "translation": "Error: Menu caption must be a string"
+    },
+    {
+        "id": "error.menu_invalid_function",
+        "translation": "Error: Menu function name must be a string"
+    },
+    {
+        "id": "error.menu_invalid_item",
+        "translation": "Error: Invalid menu item format '{{.Item}}'. Expected format: 'caption,function'"
+    },
+    {
+        "id": "error.menu_disable_no_caption",
+        "translation": "Error: DisableMenuItem requires a menu item caption"
+    },
+    {
+        "id": "error.menu_enable_no_caption",
+        "translation": "Error: EnableMenuItem requires a menu item caption"
+    },
+    {
+        "id": "error.menu_item_not_found",
+        "translation": "Error: Menu item '{{.Caption}}' not found"
+    },
+    {
+        "id": "error.menu_remove_no_caption",
+        "translation": "Error: RemoveMenuItem requires a menu item caption"
+    },
+    {
+        "id": "error.table_already_exists",
+        "translation": "Error: Table '{{.Name}}' already exists"
+    },
+    {
+        "id": "error.db_invalid_field_type",
+        "translation": "Error: Invalid field type '{{.Type}}' for field '{{.Field}}'. Allowed types are: Text, Integer, Float, Date, Time, DateTime, Boolean"
+    },
+    {
+        "id": "error.db_can_not_create_sysmeta",
+        "translation": "Error: Cannot create system metadata table '{{.Name}}'"
+    },
+    {
+        "id": "error.first_argument_not_browse",
+        "translation": "Error: First argument must be a browse object"
+    },
+    {
+        "id": "error.first_argument_not_form",
+        "translation": "Error: First argument must be a form object"
+    },
+    {
+        "id": "error.invalid_input",
+        "translation": "Error: Invalid input"
+    },
+    {
+        "id": "help.table.description",
+        "translation": "These methods provide access to the Table object, which allows you to manipulate tables in the database."
+    },
+    {
+        "id": "help.browse.description",
+        "translation": "These methods provide access to the Browse object, which allows you to navigate and manipulate table data."
+    },
+    {
+        "id": "help.commonfunctions.description",
+        "translation": "Common functions"
+    },
+    {
+        "id": "help.form.description",
+        "translation": "These methods provide access to the Form object, which allows you to insert and update data using input fields."
+    },
+    {
+        "id": "help.date.description",
+        "translation": "These methods provide access to the Date object, which allows you to manipulate dates."
+    },
+    {
+        "id": "help.time.description",
+        "translation": "These methods provide access to the Time object, which allows you to manipulate times."
+    },
+    {
+        "id": "help.datetime.description",
+        "translation": "These methods provide access to the DateTime object, which allows you to manipulate dates and times."
+    },
+    {
+        "id": "error.arg_not_valid",
+        "translation": "Error: Argument '{{.Argument}}' is not valid. Valid values: '{{.Valid}}'"
+    },
+    {
+        "id": "error.table_not_exists",
+        "translation": "Error: Table '{{.Name}}' does not exist"
+    },
+    {
+        "id": "error.field_name_not_set",
+        "translation": "Error: Field name is not set"
+    },
+    {
+        "id": "error.tablemt_metatable_not_found",
+        "translation": "Error: Table MT metadata not found"
+    }
+
+
+]
