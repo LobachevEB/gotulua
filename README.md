@@ -1,6 +1,6 @@
 # GotuLua
 
-Gotгlua - All-in-one Go-powered environment for building Lua scripts with text-based UIs and SQLite integration. Features a built-in editor, Lua runtime (Shopify/go-lua), TUI component library, and interactive help system. Distributed as a single binary with zero dependencies for Windows and Linux.
+Gotulua - All-in-one Go-powered environment for building Lua scripts with text-based UIs and SQLite integration. Features a built-in editor, Lua runtime (Shopify/go-lua), TUI component library, and interactive help system. Distributed as a single binary with zero dependencies for Windows and Linux.
 
 ## Features
 
