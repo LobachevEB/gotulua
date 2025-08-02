@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"gotulua/i18nfunc"
 	"gotulua/statefunc"
+	"os"
+	"path/filepath"
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
@@ -201,7 +203,8 @@ func showFileMenu(app *tview.Application) {
 	flex := tview.NewFlex().SetDirection(tview.FlexRow)
 	list := tview.NewList()
 	list.AddItem(i18nfunc.T("action.open", nil), i18nfunc.T("prompt.open", nil), 'o', func() {
-		showOpenFileDialog(".", func(p string) {
+		exe := getExeDirectory()
+		showOpenFileDialog(exe, func(p string) {
 			Editor.OpenFile(p)
 			statefunc.App.SetRoot(statefunc.MainFlex, true)
 		})
@@ -239,6 +242,18 @@ func showSaveAsDialog(app *tview.Application) {
 		statefunc.App.SetRoot(statefunc.MainFlex, true)
 	})
 	statefunc.App.SetRoot(dlg, true)
+}
+
+func getExeDirectory() string {
+	exe, err := os.Executable()
+	if err != nil {
+		return "."
+	}
+	exe, err = filepath.EvalSymlinks(exe)
+	if err != nil {
+		return "."
+	}
+	return filepath.Dir(exe)
 }
 
 // RunLuaScriptFunc is an optional callback that external packages (e.g., luafunc) can
