@@ -784,7 +784,8 @@ func (b *TBrowse) applyLookup(L *lua.State) {
 func (b *TBrowse) convertFldFormatIntToUser(field *TBrowseField) (interface{}, error) {
 	v := b.Table.GetCurrentRecord()[field.Name]
 	ft := b.Table.GetFieldType(field.Name) // Get the field type
-	if ft == typesfunc.TypeDate || ft == typesfunc.TypeTime || ft == typesfunc.TypeDateTime || ft == typesfunc.TypeBoolean {
+	switch ft {
+	case typesfunc.TypeDate, typesfunc.TypeTime, typesfunc.TypeDateTime, typesfunc.TypeBoolean:
 		var err error
 		var s string
 		if v != nil {
@@ -824,8 +825,12 @@ func (b *TBrowse) convertFldFormatIntToUser(field *TBrowseField) (interface{}, e
 		} else {
 			v = ""
 		}
-	} else if v == nil {
-		v = ""
+	case typesfunc.TypeInteger, typesfunc.TypeReal:
+		v = fmt.Sprintf("%v", v) // Convert to string for display
+	default:
+		if v == nil {
+			v = ""
+		}
 	}
 	return v, nil
 }
