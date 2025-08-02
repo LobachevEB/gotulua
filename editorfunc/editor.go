@@ -750,7 +750,7 @@ func (e *LuaEditor) handleInput(event *tcell.EventKey) *tcell.EventKey {
 	}
 
 	// Check for Shift+Insert (Paste)
-	if event.Key() == tcell.KeyInsert && event.Modifiers()&tcell.ModShift != 0 {
+	if event.Key() == tcell.KeyInsert && event.Modifiers()&tcell.ModShift != 0 || event.Key() == tcell.KeyCtrlV {
 		e.pasteFromClipboard()
 		return nil
 	}
