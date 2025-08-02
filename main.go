@@ -72,7 +72,7 @@ func main() {
 	args := flag.Args()
 	var srcFile string
 	if len(args) > 0 {
-		srcFile = ".\\" + args[0]
+		srcFile = "./" + args[0]
 	}
 	mainFlex := tview.NewFlex()
 	runFlexLevel0 := tview.NewFlex()
