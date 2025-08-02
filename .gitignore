@@ -1,6 +1,5 @@
 *.exe
 *test*
-Ts.db
 .vscode/
 etc/
 test/
