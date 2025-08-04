@@ -1123,6 +1123,18 @@ func (t *Table) Find() bool {
 	return len(t.Rows.Rows) > 0
 }
 
+// FindLast retrieves the last row from the table based on current filters and ordering.
+func (t *Table) FindLast() bool {
+	if t.Rows == nil || len(t.Rows.Rows) == 0 {
+		return false
+	}
+	if !t.Find() {
+		return false
+	}
+	t.ScrollToEnd()
+	return true
+}
+
 func (t *Table) ScrollToBeginning() {
 	t.Rows.Pos = 0
 }

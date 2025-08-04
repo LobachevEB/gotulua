@@ -185,6 +185,12 @@ func RegisterTableFunctions() {
 			IsHeader:    false,
 		},
 		FunctionHelp{
+			Name:        "FindLast",
+			Parameters:  "",
+			Description: "FindLast retrieves the last filtered row from the table and returns the true or false depending on the success.",
+			IsHeader:    false,
+		},
+		FunctionHelp{
 			Name:        "FindByID",
 			Parameters:  "<id> integer",
 			Description: "FindByID retrieves a row from the table by its ID and returns the true or false depending on the success.",

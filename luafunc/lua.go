@@ -405,6 +405,9 @@ func registerTableType(L *lua.State) {
 			// L.PushBoolean(wrapper.Table.Find())
 			return find(L)
 		},
+		"FindLast": func(L *lua.State) int {
+			return findLast(L)
+		},
 		"FindByID": func(L *lua.State) int {
 			return findByID(L)
 			// wrapper := checkTable(L)
@@ -1733,6 +1736,22 @@ func find(L *lua.State) int {
 	}
 	L.PushBoolean(wrapper.Table.Find()) // Call the Find method on the table
 	return 1                            // Return the number of results
+}
+
+// FindLast retrieves the last row from the table based on current filters and ordering.
+func findLast(L *lua.State) int {
+	if L.Top() < 1 {
+		errorhandlefunc.ThrowError(i18nfunc.T("error.extra_args", map[string]interface{}{
+			"Name": "Find",
+		}), errorhandlefunc.ErrorTypeScript, true)
+		return 0
+	}
+	wrapper := checkTable(L)
+	if wrapper == nil {
+		return 0
+	}
+	L.PushBoolean(wrapper.Table.FindLast()) // Call the FindLast method on the table
+	return 1                                // Return the number of results
 }
 
 func findByID(L *lua.State) int {
